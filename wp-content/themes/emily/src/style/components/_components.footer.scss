@@ -1,0 +1,30 @@
+.c-footer__mode {
+	flex-grow: 1;
+
+	font-size: .6rem;
+	text-align: center;
+	text-transform: uppercase;
+
+	background: none;
+	border: none;
+	outline: none;
+
+	cursor: pointer;
+
+	transition: 500ms color ease-out;
+
+	&:after {
+		content: '💡';
+		visibility: hidden;
+	}
+}
+
+.c-calculator--dark {
+	.c-footer__mode {
+		color: #fff;
+
+		&:after {
+			visibility: visible;
+		}
+	}
+}

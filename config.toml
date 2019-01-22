@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "nl-be"
+title = "Dimitra & "
+theme = "emily"

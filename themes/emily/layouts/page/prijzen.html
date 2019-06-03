@@ -1,0 +1,79 @@
+{{ define "main" }}
+<main class="o-container">
+	<section class="c-row">
+		<h1>Prijslijst</h1>
+		<article class="o-grid u-grid-of-3-cols">
+			<div class="u-grid-span-2-of-3">
+				{{ .Content | markdownify }}
+			</div>
+		</article>
+		<h3>Pedicure</h3>
+		<div class="o-table">
+			{{ range .Params.pedicure}}
+				<div class="o-row">
+					<div class="o-cell u-cell-name">
+						{{ .name }}
+					</div>
+					<div class="o-cell u-cell-description">
+						{{ .description }}
+					</div>
+					<div class="o-cell u-cell-price">
+						{{ .price }}
+					</div>
+				</div>
+			{{ end }}
+		</div>
+
+		<h3>Manicure</h3>
+		<div class="o-table">
+			{{ range .Params.manicure}}
+				<div class="o-row">
+					<div class="o-cell u-cell-name">
+						{{ .name }}
+					</div>
+					<div class="o-cell u-cell-description">
+						{{ .description }}
+					</div>
+					<div class="o-cell u-cell-price">
+						{{ .price }}
+					</div>
+				</div>
+			{{ end }}
+		</div>
+
+		<h3>Epilatie</h3>
+		<div class="o-table">
+			{{ range .Params.epilatie}}
+				<div class="o-row">
+					<div class="o-cell u-cell-name">
+						{{ .name }}
+					</div>
+					<div class="o-cell u-cell-description">
+						{{ .description }}
+					</div>
+					<div class="o-cell u-cell-price">
+						{{ .price }}
+					</div>
+				</div>
+			{{ end }}
+		</div>
+
+		<h3>Gelaatsverzorgingen</h3>
+		<div class="o-table">
+			{{ range .Params.gelaatsverzorgingen}}
+				<div class="o-row">
+					<div class="o-cell u-cell-name">
+						{{ .name }}
+					</div>
+					<div class="o-cell u-cell-description">
+						{{ .description }}
+					</div>
+					<div class="o-cell u-cell-price">
+						{{ .price }}
+					</div>
+				</div>
+			{{ end }}
+		</div>
+	</section>
+</main>
+{{ end }}

@@ -1,0 +1,30 @@
+body,
+html {
+    font-family: $beta-font-stack;
+    font-size: 16px;
+    line-height: 1.6;
+
+    background: $color-alpha-xx-light;
+    border: $gutter-xs solid $color-alpha;
+}
+
+::selection {
+    background: $color-alpha;
+    color: $color-alpha-xx-light;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+}
+
+a {
+    color: $color-alpha-light;
+    // text-decoration: none;
+    // border-bottom: 1px dashed $color-alpha-light;
+
+    &:active {
+        color: $color-alpha-x-light;
+        // border-bottom: 1px dashed $color-alpha-x-light;
+    }
+}

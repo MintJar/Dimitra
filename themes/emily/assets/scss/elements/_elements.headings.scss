@@ -1,0 +1,16 @@
+h1 {
+    font-size: 2.7rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    display: inline-block;
+    padding: #{$gutter-xs / 2};
+    background: $color-alpha;
+
+    color: $color-alpha-xx-light;
+    font-size: 1.1rem;
+}

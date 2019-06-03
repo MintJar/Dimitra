@@ -1,4 +1,26 @@
 baseURL = "http://example.org/"
 languageCode = "nl-be"
-title = "Dimitra & "
-theme = "emily"
+title = "Medische pedicure Christine en Esthetica Dimitra"
+theme = "Emily"
+relativeURLS = true
+canonifyurls = true
+enableEmoji = true
+
+[menu]
+  [[menu.main]]
+	name = "Home"
+	url = "/"
+	identifier = "home"
+	weight = 10
+
+  [[menu.main]]
+	name = "Prijzen"
+	url = "/prijzen"
+	identifier = "prijzen"
+	weight = 20
+
+  [[menu.main]]
+	name = "Contact"
+	url = "/contact"
+	identifier = "contact"
+	weight = 30

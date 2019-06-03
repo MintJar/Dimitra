@@ -3,16 +3,7 @@
 
 name = "Emily"
 license = "MIT"
-tags = []
-features = []
-min_version = "0.41"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Martijn Loth"
+  homepage = "https://martijnloth.be"

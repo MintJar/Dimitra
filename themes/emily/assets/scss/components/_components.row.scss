@@ -1,0 +1,28 @@
+.c-row {
+	position: relative;
+	margin: $gutter;
+	// justify-content: space-between;
+}
+
+.c-row--sm {
+	margin-top: $gutter-sm;
+	margin-bottom: $gutter-sm;
+}
+
+.c-row--lg {
+	margin-top: $gutter-lg;
+	margin-bottom: $gutter-lg;
+}
+
+.c-row--xl {
+	margin-top: $gutter-xl;
+	margin-bottom: $gutter-xl;
+}
+
+.c-row--header {
+	min-height: 60vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}

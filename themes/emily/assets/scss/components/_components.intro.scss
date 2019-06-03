@@ -1,0 +1,17 @@
+.c-intro {
+	// display: flex;
+	// flex-direction: column;
+	// justify-content: center;
+}
+
+.c-intro__header {
+	margin: 0;
+
+	font-size: 3rem;
+	font-weight: 600;
+	color: $color-alpha;
+}
+
+.c-intro__seperator {
+	font-size: 1.7rem;
+}

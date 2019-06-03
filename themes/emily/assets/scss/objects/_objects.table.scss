@@ -1,0 +1,49 @@
+// A Test to make a responsive table
+.o-table {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: $gutter-lg;
+}
+
+.o-row {
+    display: grid;
+    grid-template-columns: 250px 1fr 60px;
+    grid-column-gap: $gutter;
+
+    // padding: 0 $gutter-sm;
+
+    & + & {
+        margin-top: $gutter-xs;
+
+        padding-top: $gutter-xs;
+        padding-bottom: $gutter-xs;
+        // border-top: 1px solid $color-alpha-light;
+    }
+
+    &:nth-child(even) {
+        // background: transparentize($color-alpha-x-light, 0.9);
+    }
+}
+
+.o-cell {
+    display: block;
+}
+
+.u-cell-name {
+    font-weight: 600;
+    color: $color-alpha-x-dark;
+    // width: 20%;
+}
+
+.u-cell-description {
+    // width: 70%;
+} 
+
+.u-cell-price {
+    // width: 10%;
+    text-align: right;
+    color: $color-alpha;
+    letter-spacing: 1px;
+    font-weight: 600;
+}

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
-    {{- partial "head.html" . -}}
+    {{ partial "head.html" . }}
     <body>
-		A base template
-        {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
+		{{ partial "header.html" . }}
+
+		{{ block "main" . }}{{ end }}
+
+		{{ partial "footer.html" . }}
+
+        {{ partial "components/js.html" . }}
     </body>
 </html>

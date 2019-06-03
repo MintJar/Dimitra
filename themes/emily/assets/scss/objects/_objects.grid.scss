@@ -1,0 +1,13 @@
+.o-grid {
+    display: grid;
+    grid-column-gap: $gutter-xl;
+    grid-row-gap: $gutter-xl;
+}
+
+.u-grid-of-3-cols {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.u-grid-span-2-of-3 {
+    grid-column: span 2;
+}

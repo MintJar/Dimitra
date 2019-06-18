@@ -3,24 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://mintjar.github.io/Dimitra/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/over-ons/</loc>
+    <loc>https://mintjar.github.io/Dimitra/over-ons/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://mintjar.github.io/Dimitra/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/prijzen/</loc>
+    <loc>https://mintjar.github.io/Dimitra/prijzen/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://mintjar.github.io/Dimitra/tags/</loc>
     <priority>0</priority>
   </url>
   

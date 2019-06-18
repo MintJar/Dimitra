@@ -1,0 +1,19 @@
+.c-footer {
+    margin-top: $gutter-xl;
+
+    font-size: 0.9rem;
+}
+
+.c-footer--design {
+    margin: $gutter-sm 0;
+
+    color: $color-alpha-xx-dark;
+    font-size: 0.8rem;
+    text-align: center;
+
+    opacity: 0.4;
+
+    & a {
+        color: $color-alpha-xx-dark;
+    }
+}

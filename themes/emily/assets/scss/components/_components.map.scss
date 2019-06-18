@@ -1,0 +1,9 @@
+.c-map {
+    position: relative;
+
+    width: 100%;
+    height: 45vh;
+    // width: calc(100% + ((100vw - #{$container-width} - #{$gutter-xs} + #{$gutter}) / 2));
+
+    // box-shadow: inset 0 0 48px $color-alpha-xx-light;
+}

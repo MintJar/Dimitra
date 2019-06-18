@@ -1,0 +1,16 @@
+.c-quick-info {
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    font-weight: 700;
+    color: $color-alpha;
+    font-size: 1rem;
+    letter-spacing: 1px;
+
+    opacity: 0;
+}
+
+.c-quick-info__symbol {
+    margin-right: $gutter-xs;
+    fill: $color-alpha;
+}

@@ -1,8 +1,14 @@
 .c-nav-main {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 3rem;
 }
 
 .c-nav-main__list {
-    list-style: none;
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
 }
 
 .c-nav-main__item {

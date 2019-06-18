@@ -2,6 +2,13 @@
 	// display: flex;
 	// flex-direction: column;
 	// justify-content: center;
+	padding: 0 3rem;
+
+	// text-align: center;
+
+	@include mq(tablet) {
+		padding: 1rem;
+	}
 }
 
 .c-intro__header {
@@ -13,5 +20,6 @@
 }
 
 .c-intro__seperator {
-	font-size: 1.7rem;
+	font-size: 2rem;
+	opacity: .2;
 }

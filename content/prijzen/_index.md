@@ -1,6 +1,7 @@
 ---
 title: Prijzen en aanbod
 type: page
+hero: /img/gelaatsverzorging-torhout.jpg
 pedicure:
   - name: Medische pedicure
     description: Voetbad, nagels knippen en vijlen, nagels reinigen, eelt verwijderen, scrub en voetcrème.
@@ -12,14 +13,14 @@ pedicure:
 
 manicure:
   - name: Lakken Peggy sage one-lak
-    description: Nagels vijlen en nagel riem achteruit duwen & lakken.
+    description: Nagels vijlen en nagelriem achteruit duwen & lakken.
     price: €12
 
   - name: Verzorgende manicure
-    description: Hand bad, ,nagels knippen en vijlen, scrub , massage, masker en handcréme
+    description: Hand bad, nagels knippen en vijlen, scrub, massage, masker en handcréme.
     price: €30
 
-  - name: Extra lakken peggy sage one-lak
+  - name: Extra lakken peggy sage one-lak.
     description:
     price: €10
 

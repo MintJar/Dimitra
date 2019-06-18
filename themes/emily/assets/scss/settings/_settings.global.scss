@@ -1,0 +1,19 @@
+$container-width: 1200px;
+
+$alpha-font-stack: 'Helvetica Neue', Arial, 'Sans Serif';
+$beta-font-stack: 'Lora';
+
+// Breakpoints
+// TODO: convert to phone, tablet, etc.
+$bp1: 320px;
+$bp2: 480px;
+$bp3: 680px;
+$bp4: 960px;
+$bp5: 1140px;
+$bp6: 1380px;
+
+$gutter-xs: 8px;
+$gutter-sm: 16px;
+$gutter: 24px;
+$gutter-lg: 48px;
+$gutter-xl: 96px;

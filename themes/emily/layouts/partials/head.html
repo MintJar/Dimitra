@@ -1,0 +1,37 @@
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta charset="utf-8">
+	<meta http-equiv="cleartype" content="on">
+
+	<!-- Mobile header colors -->
+	<meta name="theme-color" content="#TODO" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="msapplication-navbutton-color" content="#TODO" />
+
+	<!-- Mobile settings http://t.co/dKP3o1e -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- About this document -->
+	<meta name="author" content="Dimitra & ">
+	<meta name="description" content="{{ .Params.Description }}">
+	<title>{{ block "title" . }}{{ .Params.Title }} | {{ with .Site.Title }}{{ . }}{{ end }}{{ end }}</title>
+
+	<!-- Stylesheets -->
+	<!-- <link rel="stylesheet" href="https://use.typekit.net/zgq1yxl.css"> -->
+	{{ if eq .Params.Identifier "contact"}}
+		<link href="https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css" rel="stylesheet" />
+	{{ end }}
+
+	{{ $style := resources.Get "scss/screen.scss" | toCSS | minify }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+	<link rel="icon" href="/favicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/apple-touch-icon-precomposed.png">
+
+	<!--
+        Place all other favicons in website root (e.g. http://web.dev/favicon.ico).
+        Add your font license here, if necessary.
+    -->
+</head>

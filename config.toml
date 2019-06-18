@@ -1,0 +1,27 @@
+baseURL = "http://example.org/"
+languageCode = "nl-be"
+title = "Medische pedicure Christine en Esthetica Dimitra"
+theme = "Emily"
+relativeURLS = true
+canonifyurls = true
+enableEmoji = true
+publishDir = "docs"
+
+[menu]
+  [[menu.main]]
+	name = "Home"
+	url = "/"
+	identifier = "home"
+	weight = 10
+
+  [[menu.main]]
+	name = "Prijzen"
+	url = "/prijzen"
+	identifier = "prijzen"
+	weight = 20
+
+  [[menu.main]]
+	name = "Over ons"
+	url = "/over-ons"
+	identifier = "over-ons"
+	weight = 30

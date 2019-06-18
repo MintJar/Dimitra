@@ -1,0 +1,25 @@
+.c-intro {
+	// display: flex;
+	// flex-direction: column;
+	// justify-content: center;
+	padding: 0 3rem;
+
+	// text-align: center;
+
+	@include mq(tablet) {
+		padding: 1rem;
+	}
+}
+
+.c-intro__header {
+	margin: 0;
+
+	font-size: 3rem;
+	font-weight: 600;
+	color: $color-alpha;
+}
+
+.c-intro__seperator {
+	font-size: 2rem;
+	opacity: .2;
+}

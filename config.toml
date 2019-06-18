@@ -5,6 +5,7 @@ theme = "Emily"
 relativeURLS = true
 canonifyurls = true
 enableEmoji = true
+publishDir = "docs"
 
 [menu]
   [[menu.main]]

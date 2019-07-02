@@ -1,10 +1,11 @@
 <nav class="c-nav-main js-nav">
 	<ul class="o-list c-nav-main__list">
-		{{$currentNode := .}}
+		{{$currentPage := .}}
 		{{range .Site.Menus.main}}
-		<li class="c-nav-main__item {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} is-selected{{end}}">
-			<a href="{{ .URL }}" class="c-nav-main__link">{{ .Name }}</a>
-		</li>
+			{{ $active := or (eq $currentPage.Title .Name) (or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .)) }}
+			<li class="c-nav-main__item {{ if $active }}is-selected{{ end }}">
+				<a href="{{ .URL }}" class="c-nav-main__link">{{ .Name }}</a>
+			</li>
 		{{ end }}
 		<!-- <button>Maak een afspraak</button> -->
 	</ul>

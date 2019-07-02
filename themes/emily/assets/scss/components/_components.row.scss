@@ -15,8 +15,13 @@
 }
 
 .c-row--lg {
-	margin-top: $gutter-lg;
-	margin-bottom: $gutter-lg;
+	margin-top: $gutter;
+	margin-bottom: $gutter;
+
+	@include mq($tablet) {
+		margin-top: $gutter-lg;
+		margin-bottom: $gutter-lg;
+	}
 }
 
 .c-row--xl {
@@ -25,9 +30,12 @@
 }
 
 .c-row--header {
-	min-height: 60vh;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
+
+	@include mq($desktop) {
+		min-height: 60vh;
+	}
 }

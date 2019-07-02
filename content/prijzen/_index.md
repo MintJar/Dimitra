@@ -1,6 +1,7 @@
 ---
 title: Prijzen en aanbod
 type: page
+identifier: "prijzen"
 hero: /img/gelaatsverzorging-torhout.jpg
 pedicure:
   - name: Medische pedicure

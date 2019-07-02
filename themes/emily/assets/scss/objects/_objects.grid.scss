@@ -1,5 +1,8 @@
 .o-grid {
-	display: grid;
+
+	@include mq($phone-lg) {
+		display: grid;
+	}
 }
 
 .u-grid-align-end {

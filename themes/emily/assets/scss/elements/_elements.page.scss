@@ -1,11 +1,15 @@
 body,
 html {
-    font-family: $beta-font-stack;
-    font-size: 16px;
-    line-height: 1.6;
+	font-family: $beta-font-stack;
+	font-size: 14px;
+	line-height: 1.6;
 
     background: $color-alpha-xx-light;
-    border: $gutter-xs solid $color-alpha;
+	border: $gutter-xs solid $color-alpha;
+	
+	@include mq($tablet) {
+		font-size: 16px;
+	}
 }
 
 ::selection {
@@ -16,7 +20,7 @@ html {
 
 p {
     font-size: 1.1rem;
-    line-height: 1.9;
+	line-height: 1.9;
 }
 
 a {
@@ -28,4 +32,8 @@ a {
         color: $color-alpha-x-light;
         // border-bottom: 1px dashed $color-alpha-x-light;
     }
+}
+
+:focus {
+	outline-color: $color-alpha-light;
 }

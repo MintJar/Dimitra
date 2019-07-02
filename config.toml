@@ -1,5 +1,5 @@
 baseURL = "https://mintjar.github.io/Dimitra/"
-languageCode = "nl-be"
+languageCode = "nl-BE"
 title = "Medische pedicure Christine en Esthetica Dimitra"
 theme = "Emily"
 relativeURLS = true
@@ -8,20 +8,20 @@ enableEmoji = true
 publishDir = "docs"
 
 [menu]
-  [[menu.main]]
-	name = "Home"
-	url = "/"
-	identifier = "home"
-	weight = 10
+	[[menu.main]]
+		name = "Home"
+		url = "/"
+		identifier = "home"
+		weight = 10
 
-  [[menu.main]]
-	name = "Prijzen"
-	url = "/prijzen"
-	identifier = "prijzen"
-	weight = 20
+	[[menu.main]]
+		name = "Prijzen"
+		url = "/prijzen/"
+		identifier = "prijzen"
+		weight = 20
 
-  [[menu.main]]
-	name = "Over ons"
-	url = "/over-ons"
-	identifier = "over-ons"
-	weight = 30
+	[[menu.main]]
+		name = "Over ons"
+		url = "/over-ons/"
+		identifier = "over-ons"
+		weight = 30

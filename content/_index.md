@@ -1,6 +1,7 @@
 ---
 title: Pedicure
 type: page
+identifier: "home"
 hero: /img/christine-en-dimitra.JPG
 ---
 

@@ -1,7 +1,10 @@
 .c-nav-main {
 	display: flex;
 	justify-content: flex-end;
-	padding-right: 3rem;
+
+	@include mq($desktop) {
+		padding-right: 3rem;
+	}
 }
 
 .c-nav-main__list {

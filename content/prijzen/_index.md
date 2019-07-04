@@ -62,6 +62,11 @@ gelaatsverzorgingen:
 
   - name: Wimperextensions (nieuw)
     description: One by one
+    price: €100
+
+  - name: Bijwerking wimperextensions (nieuw)
+    description: Een bijwerking kan binnen de drie weken gebeuren na de wimperextension.
+    price: €40
 
 
 ---

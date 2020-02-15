@@ -1,13 +1,26 @@
 {{ if eq .Params.Identifier "over-ons"}}
-	<script src="https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js"></script>
-	<script>
-		mapboxgl.accessToken = 'pk.eyJ1IjoibWxvdGgiLCJhIjoiY2pyZXlqb2F0MHEycTQ0b2dyMXpmaDE1eiJ9.TokSIc7pKVMCpMUTY7YqnA';
-		var map = new mapboxgl.Map({
-			container: 'map',
-			style:
-				'mapbox://styles/mloth/cjrez0fo04jqq2tki7cl856sk',
-				center: [3.089850, 51.120336],
-				zoom: 16.0
-		});
-	</script>
+<script src="https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js"></script>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoibWxvdGgiLCJhIjoiY2pyZXlqb2F0MHEycTQ0b2dyMXpmaDE1eiJ9.TokSIc7pKVMCpMUTY7YqnA';
+
+	const map = new mapboxgl.Map({
+		container: 'map',
+		style: 'mapbox://styles/mloth/cjrez0fo04jqq2tki7cl856sk',
+		center: [3.08985, 51.120336],
+		zoom: 16.0,
+	});
+
+	const markerElement = document.createElement('div');
+	markerElement.className = 'c-marker';
+
+	// const marker =
+	new mapboxgl.Marker(markerElement)
+		.setLngLat([3.08985, 51.120336])
+		.setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+		.setHTML(`
+		<h3>Christine & Dimitra</h3>
+		<p>Engelstraat 9 in Aartrijke</p>
+		`))
+		.addTo(map);
+</script>
 {{ end }}

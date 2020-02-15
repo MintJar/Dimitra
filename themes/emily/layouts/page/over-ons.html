@@ -1,13 +1,15 @@
 {{ define "main" }}
-	<main class="o-container">
-		<div class="c-row">
-			<h1>{{ .Page.Title }}</h1>
-			<section class="o-grid u-grid-of-3-cols">
-				<article class="u-grid-span-2-of-3">
-					{{ .Content | markdownify }}
-				</article>
-			</section>
-		</div>
-	</main>
-	<div id="map" class="c-map"></div>
+
+<main class="o-container">
+    <div class="c-row">
+        <h1>{{ .Page.Title }}</h1>
+        <section class="o-grid u-grid-of-3-cols">
+            <article class="u-grid-span-2-of-3">
+                {{ .Content }}
+            </article>
+        </section>
+    </div>
+</main>
+<div id="map" class="c-map"></div>
+
 {{ end }}

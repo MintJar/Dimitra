@@ -5,15 +5,29 @@
 }
 
 .c-footer--design {
-    margin: $gutter-sm 0;
+    display: flex;
+    justify-content: center;
+
+    margin: $gutter-sm auto;
 
     color: $color-alpha-xx-dark;
     font-size: 0.8rem;
-    text-align: center;
+    // text-align: center;
 
     opacity: 0.4;
 
     & a {
         color: $color-alpha-xx-dark;
     }
+}
+
+.c-disclaimer {
+    display: flex;
+    align-items: center;
+    margin-left: 0.3rem;
+}
+
+.c-disclaimer__logo {
+    height: 0.5rem;
+    // margin-left: 0.5rem;
 }

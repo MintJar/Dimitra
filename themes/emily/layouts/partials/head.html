@@ -19,13 +19,19 @@
 	<title>{{ block "title" . }}{{ .Params.Title }} | {{ with .Site.Title }}{{ . }}{{ end }}{{ end }}</title>
 
 	<!-- Stylesheets -->
-	{{ if eq .Params.Identifier "contact"}}
+	{{ if eq .Params.Identifier "over-ons"}}
 		<link href="https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css" rel="stylesheet" />
 	{{ end }}
 
 	{{ $style := resources.Get "scss/screen.scss" | toCSS | minify }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}">
 
-	<link rel="icon" href="/favicon.png">
-	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/apple-touch-icon-precomposed.png">
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#8f0e39">
+	<meta name="msapplication-TileColor" content="#eeeeee">
+	<meta name="theme-color" content="#ffffff">
 </head>

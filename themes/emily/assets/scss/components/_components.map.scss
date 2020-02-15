@@ -7,3 +7,20 @@
 
     // box-shadow: inset 0 0 48px $color-alpha-xx-light;
 }
+
+.c-marker {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+
+    // background-color: red;
+    background-image: url('/Dimitra/img/marker.svg');
+    background-size: cover;
+
+    cursor: pointer;
+}
+
+// .mapboxgl-popup-content h3,
+.mapboxgl-popup-content p {
+    margin: 0;
+}

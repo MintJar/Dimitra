@@ -1,7 +1,7 @@
 baseURL = "https://boring-curie-4938fd.netlify.com/"
 languageCode = "nl-BE"
 title = "Medische pedicure Christine en Esthetica Dimitra"
-theme = ["Emily"]
+theme = "Emily"
 relativeURLS = true
 canonifyurls = true
 enableEmoji = true

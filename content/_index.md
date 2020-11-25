@@ -3,7 +3,7 @@ title: Dimitra Esthetica
 subTitle: Gespecialiseerde voetverzorging
 # type: page
 # identifier: "home"
-hero: /img/dimi/DSC08246.JPG
+hero: /dimi/DSC08246.JPG
 ---
 
 # Medische pedicure en gelaatsverzorging rondom Torhout

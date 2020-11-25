@@ -1,1 +1,4 @@
-<img class="" src="{{ .Params.hero }}" alt="" />
+{{ with resources.GetMatch .Params.hero }}
+	{{ $thumb := .Resize "960x" }}
+	<img src="{{ $thumb.Permalink }}" alt="">
+{{ end }}

@@ -1,5 +1,6 @@
 .c-nav-main {
     // padding: 0 1rem;
+
     @include mq($desktop) {
         // padding-right: 3rem;
     }
@@ -15,8 +16,14 @@
 
 .c-nav-main__container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+
+    @include mq($phone) {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 .c-nav-main__item {
@@ -54,4 +61,12 @@
 
     background: $color-alpha;
     border-radius: 3px;
+
+    &--hide-mobile {
+        display: none;
+
+        @include mq($phone) {
+            display: inline;
+        }
+    }
 }

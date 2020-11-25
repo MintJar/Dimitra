@@ -3,7 +3,7 @@ title: Prijzen en aanbod
 subTitle: Laat u verzorgen!
 type: page
 identifier: 'prijzen'
-hero: /img/dimi/DSC08279.JPG
+hero: /dimi/DSC08279.jpg
 
 pedicure_manicure:
     - name: Gespecialiseerde pedicure

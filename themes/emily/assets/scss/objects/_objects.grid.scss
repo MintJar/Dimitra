@@ -1,25 +1,24 @@
 .o-grid {
-
-	@include mq($phone-lg) {
-		display: grid;
-	}
+    @include mq($phone-lg) {
+        display: grid;
+    }
 }
 
 .u-grid-align-end {
-	align-items: end;
+    align-items: end;
 }
 
 .u-grid-align-center {
-	align-items: center;
+    align-items: center;
 }
 
 .u-grid-gutter-lg {
-	grid-column-gap: $gutter-lg;
+    grid-column-gap: $gutter-lg;
     grid-row-gap: $gutter-lg;
 }
 
 .u-grid-gutter-xl {
-	grid-column-gap: $gutter-xl;
+    grid-column-gap: $gutter-xl;
     grid-row-gap: $gutter-xl;
 }
 
@@ -36,5 +35,5 @@
 }
 
 .u-grid-home {
-	width: 100%;
+    width: 100%;
 }

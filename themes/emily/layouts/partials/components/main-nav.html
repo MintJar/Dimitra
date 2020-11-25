@@ -1,12 +1,21 @@
-<nav class="c-nav-main js-nav">
-	<ul class="o-list c-nav-main__list">
-		{{$currentPage := .}}
-		{{range .Site.Menus.main}}
-			{{ $active := or (eq $currentPage.Title .Name) (or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .)) }}
-			<li class="c-nav-main__item {{ if $active }}is-selected{{ end }}">
-				<a href="{{ .URL }}" class="c-nav-main__link">{{ .Name }}</a>
-			</li>
-		{{ end }}
-		<!-- <button>Maak een afspraak</button> -->
-	</ul>
-</nav>
+<div class="c-row c-row--lg">
+	<nav class="c-nav-main js-nav">
+		<div class="c-nav-main__container">
+			<a href="/">
+				{{ partial "components/logo.html" . }}
+			</a>
+
+			<ul class="o-list c-nav-main__list">
+				{{$currentPage := .}}
+				{{range .Site.Menus.main}}
+					{{ $active := or (eq $currentPage.Title .Name) (or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .)) }}
+					<li class="c-nav-main__item {{ if $active }}is-selected{{ end }}">
+						<a href="{{ .URL }}" class="c-nav-main__link">{{ .Name }}</a>
+					</li>
+				{{ end }}
+
+				<a class="c-nav-main__cta" href="tel:+32496439363">Bel voor een afspraak</a>
+			</ul>
+		</div>
+	</nav>
+</div>

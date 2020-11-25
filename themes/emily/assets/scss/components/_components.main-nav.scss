@@ -1,17 +1,22 @@
 .c-nav-main {
-	display: flex;
-	justify-content: flex-end;
-
-	@include mq($desktop) {
-		padding-right: 3rem;
-	}
+    // padding: 0 1rem;
+    @include mq($desktop) {
+        // padding-right: 3rem;
+    }
 }
 
 .c-nav-main__list {
-	margin: 0;
-	padding: 0;
+    display: flex;
+    margin: 0;
+    padding: 0;
 
-	list-style: none;
+    list-style: none;
+}
+
+.c-nav-main__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .c-nav-main__item {
@@ -20,6 +25,8 @@
     &.is-selected .c-nav-main__link {
         color: $color-alpha;
     }
+
+    margin-right: 1.5rem;
 }
 
 .c-nav-main__link {
@@ -27,11 +34,24 @@
     padding: $gutter-xs 0;
 
     text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: $color-alpha-dark;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: $color-alpha-x-dark;
 
     &:hover {
         color: $color-alpha;
     }
+}
+
+.c-nav-main__cta {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: $color-alpha-xx-light;
+
+    background: $color-alpha;
+    border-radius: 3px;
 }

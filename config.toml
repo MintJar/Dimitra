@@ -21,7 +21,7 @@ title = "Medische pedicure Christine en Esthetica Dimitra"
 		weight = 20
 
 	[[menu.main]]
-		name = "Over ons"
-		url = "/over-ons/"
-		identifier = "over-ons"
+		name = "Over mij"
+		url = "/over-mij/"
+		identifier = "over-mij"
 		weight = 30

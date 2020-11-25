@@ -1,73 +1,99 @@
 ---
 title: Prijzen en aanbod
+subTitle: Laat u verzorgen!
 type: page
 identifier: 'prijzen'
-hero: /img/gelaatsverzorging-torhout.jpg
+hero: /img/dimi/DSC08279.JPG
 
-pedicure:
-    - name: Medische pedicure
-      description: Voetbad, nagels knippen en vijlen, nagels reinigen, eelt verwijderen, scrub en voetcrème.
+pedicure_manicure:
+    - name: Gespecialiseerde pedicure
+      description: Voetbad - voet analyse - nagels knippen - in vorm brengen - reinigen - eelt-verzorging - eventuele aandoening behandelen - scrub en voetcrème.
       price: €30
 
-    - name: Extra lakken peggy sage one-lak
-      description: Minstens 3 weken houdbaar.
-      price: €7
+    - name: Serplus gellak
+      description: 
+      price: €15
 
-manicure:
-    - name: Lakken Peggy sage one-lak
-      description: Nagels vijlen en nagelriem achteruit duwen & lakken.
-      price: €12
+    - name: Spa Manicure
+      description: Nagelbadje - vijlen - reinigen - nagelriem verzorgen - scrub - masker - handcrème 
+      price: €15
 
-    - name: Verzorgende manicure
-      description: Hand bad, nagels knippen en vijlen, scrub, massage, masker en handcréme.
-      price: €30
-
-    - name: Extra lakken peggy sage one-lak.
-      description:
-      price: €10
-
-    - name: Lakken I-lak
-      description: Nagels vijlen, nagelriem achteruit duwen, velletjes verwijderen, primer, base coat, drie lagen hoofdkleur en top coat.
-      price: €25
+    - name: Gellak
+      description: Verstevigende nagellak onder de lamp blijft tot 3 weken.
+      price: €35
 
 epilatie:
-    - name: Wenkbrauwen
+    - name: Wenkbrauw styling
       description:
-      price: € 7
+      price: €9
 
     - name: Bovenlip
       description:
       price: €7
 
+    - name: Kin
+      description:
+      price: €7
+
     - name: Volledig gelaat
+      description:
+      price: €18
+
+    - name: Oksels
       description:
       price: €10
 
-    - name: Onderbenen met knie
+    - name: Benen
       description:
-      price: €15
+      price: €20
 
 gelaatsverzorgingen:
-    - name: Peggy sage verzorging
-      description: Oppervlakkig reinigen, epilatie, diep reinigen, sérum, massage, masker en dagcreme.
-      price: €50
+    - name: Basic
+      description: Huid analyse - relaxatie protocol - gelaat reingen – diep reingen – grondiger reinigen – massage – masker – serum – dagcrème
+      price: €60
 
-    - name: Peggy sage specifiek
-      description: Idem peggy sage verzorging maar met specifiek masker.
-      price: €55
+    - name: Relax
+      description: Welkom rug massage + basic
+      price: €75
 
-    - name: Peggy sage luxe
-      description: Idem peggy sage specifiek + korte rug massage.
-      price: €67
+    - name: Luxe (botox like care)
+      description: Welkom rug massage + Diepgaande anti-age behandeling die de huid strakker maakt.
+      price: €85
 
-    - name: Wimperextensions (nieuw)
-      description: One by one
+men:
+    - name: Basic
+      description: Huid analyse – relaxatie protocol - gelaat reingen – diep reingen – grondiger reinigen – massage – masker – serum – dagcreme
+      price: €60
+
+    - name: Luxe
+      description: Welkom rug massage + basic
+      price: €75
+
+lashes:
+    - name: One by one
+      description: Op één haartje wordt één wimper geplaatst aangepast aan de natuurlijke wimper. Na ongeveer 3 weken worden de wimpers bijgewerkt, door de wimpercyclus verlies je haartjes en die gaatjes worden opnieuw opgevuld.
       price: €100
 
-    - name: Bijwerking wimperextensions (nieuw)
-      description: Een bijwerking kan binnen de drie weken gebeuren na de wimperextension.
+    - name: Russian volume
+      description: Op één haartje worden meerdere wimpers geplaatst aangepast aan de natuurlijke wimper en afhankelijk van u wens. Na ongeveer 3 weken worden de wimpers bijgewerkt, door de wimpercyclus verlies je haartjes en die gaatjes worden opnieuw opgevuld.
+      price: €110
+
+    - name: Bijwerking 2 weken
+      description:
+      price: €30
+
+    - name: Bijwerking 3 weken
+      description:
       price: €40
+    
+
 ---
+
+# Over AHAVA 
+AHAVA, Hebreeuws voor liefde, werd opgericht in 1988 uit fascinatie voor de Dode Zee. Deze bron van mineralen vormt de basis voor de verouderingsvertragende huidverzorgingsproducten van AHAVA. Sindsdien is dit merk uitgegroeid tot dé ‘Dead Sea mineral beauty expert’. 
+
+De kracht achter ons volledige productassortiment is de exclusieve Osmoter™ – een perfect evenwichtig concentraat van Dode Zee mineralen dat de huid effectief regenereert, hydrateert en herlaadt
+
 
 Graag een afspraak voordien maken om een goed advies en service te geven.  
 De prijzen op deze website zijn niet bindend.

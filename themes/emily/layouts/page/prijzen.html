@@ -2,15 +2,18 @@
 
 <main class="o-container">
 	<section class="c-row c-row--xl">
-		<h1>Prijslijst</h1>
 		<article class="o-grid u-grid-of-3-cols">
 			<div class="u-grid-span-2-of-3">
-				{{ .Content | markdownify }}
+				{{ .Content }}
 			</div>
 		</article>
-		<h3>Pedicure</h3>
+	</section>
+
+	<section class="c-row">
+		<h1>Prijslijst</h1>
+		<h3>Pedicure & Manicure</h3>
 		<div class="o-table">
-			{{ range .Params.pedicure}}
+			{{ range .Params.pedicure_manicure}}
 				<div class="o-row">
 					<div class="o-cell u-cell-name">
 						{{ .name }}
@@ -25,7 +28,7 @@
 			{{ end }}
 		</div>
 
-		<h3>Manicure</h3>
+		<!-- <h3>Manicure</h3>
 		<div class="o-table">
 			{{ range .Params.manicure}}
 				<div class="o-row">
@@ -40,7 +43,7 @@
 					</div>
 				</div>
 			{{ end }}
-		</div>
+		</div> -->
 
 		<h3>Epilatie</h3>
 		<div class="o-table">
@@ -75,12 +78,48 @@
 				</div>
 			{{ end }}
 		</div>
+
+		<h3>Men</h3>
+		<div class="o-table">
+			{{ range .Params.men}}
+				<div class="o-row">
+					<div class="o-cell u-cell-name">
+						{{ .name }}
+					</div>
+					<div class="o-cell u-cell-description">
+						{{ .description }}
+					</div>
+					<div class="o-cell u-cell-price">
+						{{ .price }}
+					</div>
+				</div>
+			{{ end }}
+		</div>
+
+		<h3>Lashes</h3>
+		<div class="o-table">
+			{{ range .Params.lashes}}
+				<div class="o-row">
+					<div class="o-cell u-cell-name">
+						{{ .name }}
+					</div>
+					<div class="o-cell u-cell-description">
+						{{ .description }}
+					</div>
+					<div class="o-cell u-cell-price">
+						{{ .price }}
+					</div>
+				</div>
+			{{ end }}
+		</div>
 	</section>
 
 	<div class="c-row c-row--xl o-grid u-grid-gutter-lg u-grid-align-end u-grid-of-3-cols">
 		<div class="u-animate-slide-in-left">
 			<figure>
-				<img src="/img/gelaatsverzorging.jpg" alt="">
+				{{ $resource := .Resources.GetMatch "DSC08295.JPG" }}
+				{{ $image := $resource.Resize "462x" }}
+				<img src="{{ $image.RelPermalink }}" alt="">
 				<figcaption>
 					<p>Dimitra past een gelaatsverzorging toe.</p>
 				</figcaption>
@@ -88,23 +127,63 @@
 		</div>
 		<div class="u-animate-slide-in-left">
 			<figure>
-				<img src="/img/wimperextensie.jpg" alt="">
+				{{ $resource := .Resources.GetMatch "IMG-20201113-WA0003.jpg" }}
+				{{ $image := $resource.Resize "462x" }}
+				<img src="{{ $image.RelPermalink }}" alt="">
 				<figcaption>
-					<p>One by one wimper extensions.</p>
+					<p>Nagels lakken.</p>
 				</figcaption>
 			</figure>
 		</div>
 		<div class="u-animate-slide-in-left">
 			<figure>
-				<img src="/img/voetmassage.jpg" alt="">
+				{{ $resource := .Resources.GetMatch "DSC08337.JPG" }}
+				{{ $image := $resource.Resize "462x" }}
+				<img src="{{ $image.RelPermalink }}" alt="">
 				<figcaption>
-					<p>Christine past een pedicure toe.</p>
+					<p>Dimitra past een pedicure toe.</p>
 				</figcaption>
 			</figure>
 		</div>
 	</div>
-	<div class="c-row">
-		<img src="/img/producten-voor-nagel-esthetica.JPG" alt="">
+
+	<div class="c-row o-grid u-grid-gutter-lg u-grid-align-end u-grid-of-3-cols">
+		<div class="u-animate-slide-in-left">
+			<figure>
+				{{ $resource := .Resources.GetMatch "DSC08323.JPG" }}
+				{{ $image := $resource.Resize "462x" }}
+				<img src="{{ $image.RelPermalink }}" alt="">
+				<!-- <figcaption>
+					<p>Dimitra past een gelaatsverzorging toe.</p>
+				</figcaption> -->
+			</figure>
+		</div>
+		<div class="u-animate-slide-in-left">
+			<figure>
+				{{ $resource := .Resources.GetMatch "DSC08258.JPG" }}
+				{{ $image := $resource.Resize "462x" }}
+				<img src="{{ $image.RelPermalink }}" alt="">
+				<!-- <figcaption>
+					<p>Nagels lakken.</p>
+				</figcaption> -->
+			</figure>
+		</div>
+		<div class="u-animate-slide-in-left">
+			<figure>
+				{{ $resource := .Resources.GetMatch "DSC08197.JPG" }}
+				{{ $image := $resource.Resize "462x" }}
+				<img src="{{ $image.RelPermalink }}" alt="">
+				<!-- <figcaption>
+					<p>Dimitra past een pedicure toe.</p>
+				</figcaption> -->
+			</figure>
+		</div>
 	</div>
+
+	<!-- <div class="c-row">
+		<img src="/img/producten-voor-nagel-esthetica.JPG" alt="">
+	</div> -->
+
+
 </main>
 {{ end }}

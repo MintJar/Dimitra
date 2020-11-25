@@ -1,41 +1,43 @@
 .c-row {
-	position: relative;
-	margin: $gutter;
-	// justify-content: space-between;
+    position: relative;
+    padding: $gutter;
+    // justify-content: space-between;
 }
 
 .c-row--stretch {
-	margin-left: 0;
-	margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .c-row--sm {
-	margin-top: $gutter-sm;
-	margin-bottom: $gutter-sm;
+    padding-top: $gutter-sm;
+    padding-bottom: $gutter-sm;
 }
 
 .c-row--lg {
-	margin-top: $gutter;
-	margin-bottom: $gutter;
+    padding-top: $gutter;
+    padding-bottom: $gutter;
 
-	@include mq($tablet) {
-		margin-top: $gutter-lg;
-		margin-bottom: $gutter-lg;
-	}
+    @include mq($tablet) {
+        padding-top: $gutter-lg;
+        padding-bottom: $gutter-lg;
+    }
 }
 
 .c-row--xl {
-	margin-top: $gutter-xl;
-	margin-bottom: $gutter-xl;
+    padding-top: $gutter-xl;
+    padding-bottom: $gutter-xl;
 }
 
 .c-row--header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    // flex-wrap: wrap;
 
-	@include mq($desktop) {
-		min-height: 60vh;
-	}
+    background: $color-beta;
+
+    @include mq($desktop) {
+        // min-height: 60vh;
+    }
 }

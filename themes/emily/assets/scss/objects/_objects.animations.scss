@@ -1,44 +1,44 @@
 @keyframes slideInUp {
-	0% {
-		opacity: 0;
-		transform: translate3d(0, 30%, 0);
-	}
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 30%, 0);
+    }
 
-	10% {
-		opacity: 0;
-		transform: translate3d(0, 30%, 0);
-	}
+    10% {
+        opacity: 0;
+        transform: translate3d(0, 30%, 0);
+    }
 
-	100% {
-		transform: translate3d(0, 0, 0);
-		opacity: 1;
-	}
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
 }
 
 .u-animate-slide-in-up {
-	will-change: transform, opacity;
-	animation: slideInUp 600ms ease-out;
-	animation-fill-mode: both;
+    will-change: transform, opacity;
+    animation: slideInUp 700ms ease-out;
+    animation-fill-mode: both;
 }
 
 @keyframes slideInLeft {
-	from {
-		transform: translate3d(-30%, 0, 0);
-		opacity: 0;
-	}
+    from {
+        transform: translate3d(-30%, 0, 0);
+        opacity: 0;
+    }
 
-	to {
-		transform: translate3d(0, 0, 0);
-		opacity: 1;
-	}
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
 }
 
 .u-animate-slide-in-left {
-	will-change: transform, opacity;
-	animation: slideInLeft 500ms ease-out;
-	animation-fill-mode: both;
+    will-change: transform, opacity;
+    animation: slideInLeft 500ms ease-out;
+    animation-fill-mode: both;
 }
 
 .u-animate-delay-1s {
-	animation-delay: 1s;
+    animation-delay: 1s;
 }

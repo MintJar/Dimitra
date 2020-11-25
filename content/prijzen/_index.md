@@ -48,17 +48,21 @@ epilatie:
       price: €20
 
 gelaatsverzorgingen:
-    - name: Basic
-      description: Huid analyse - relaxatie protocol - gelaat reingen – diep reingen – grondiger reinigen – massage – masker – serum – dagcrème
+    - name: Hydrating boost verzorging
+      description: Een intens hydraterende verzorging voor het gelaat die de vochtbalans van de huid vanbinnen uit hersteld, door het uniek Osmoter complex.  Deze behandeling boost de hydratatie van de huid die door de dagelijkse stress en de agressies haar levensnoodzakelijk vocht verliest. (60min)
       price: €60
 
-    - name: Relax
-      description: Welkom rug massage + basic
+    - name: Extreme lift verzorging
+      description: Een multi-voordelige anti-aging gelaatsverzorging, gericht op de algemene huidverbetering. Het strijkt rimpels & fijne lijntjes glad, versterkt de stevigheid van de huid en egaliseert de teint. (60min)
       price: €75
 
-    - name: Luxe (botox like care)
-      description: Welkom rug massage + Diepgaande anti-age behandeling die de huid strakker maakt.
+    - name: Botox-like verzorging
+      description: Een luxe gelaatsverzorging die uitgevoerd word met de top lijn van AHAVA het is een resultaat gerichte behandeling die de rimpels & fijne lijntjes in het gelaat opvult en glad strijkt. Deze behandeling versterkt de stevigheid van de huid en galiseert de tint.  Het is een efficiënt, slim en veilig alternatief voor botox. (75min)
       price: €85
+
+    - name: Rug supplement 
+      description: Welkoms rug massage + mud pakking
+      price: €10
 
 men:
     - name: Basic

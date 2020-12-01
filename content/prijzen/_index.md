@@ -16,7 +16,7 @@ pedicure_manicure:
 
     - name: Spa Manicure
       description: Nagelbadje - vijlen - reinigen - nagelriem verzorgen - scrub - masker - handcrème 
-      price: €15
+      price: €30
 
     - name: Gellak
       description: Verstevigende nagellak onder de lamp blijft tot 3 weken.
@@ -57,7 +57,7 @@ gelaatsverzorgingen:
       price: €75
 
     - name: Botox-like verzorging
-      description: Een luxe gelaatsverzorging die uitgevoerd word met de top lijn van AHAVA het is een resultaat gerichte behandeling die de rimpels & fijne lijntjes in het gelaat opvult en glad strijkt. Deze behandeling versterkt de stevigheid van de huid en galiseert de tint.  Het is een efficiënt, slim en veilig alternatief voor botox. (75min)
+      description: Een luxe gelaatsverzorging die uitgevoerd word met de top lijn van AHAVA het is een resultaat gerichte behandeling die de rimpels & fijne lijntjes in het gelaat opvult en glad strijkt. Deze behandeling versterkt de stevigheid van de huid en egaliseert de teint.  Het is een efficiënt, slim en veilig alternatief voor botox. (75min)
       price: €85
 
     - name: Rug supplement 

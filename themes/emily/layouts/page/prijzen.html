@@ -88,6 +88,23 @@
 			{{ end }}
 		</div>
 
+		<h3>Massage</h3>
+		<div class="o-table">
+			{{ range .Params.massage}}
+				<div class="o-row">
+					<div class="o-cell u-cell-name">
+						{{ .name }}
+					</div>
+					<div class="o-cell u-cell-description">
+						{{ .description }}
+					</div>
+					<div class="o-cell u-cell-price">
+						{{ .price }}
+					</div>
+				</div>
+			{{ end }}
+		</div>
+
 		<h3>Lashes</h3>
 		<div class="o-table">
 			{{ range .Params.lashes}}

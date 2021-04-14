@@ -70,8 +70,13 @@ men:
       price: €60
 
     - name: Luxe
-      description: Welkom rug massage + basic
+      description: Rug supplement + basic
       price: €75
+
+massage:
+    - name: Rug-menu
+      description: Scrub, massage en 'mud-packing' (40min)
+      price: €35
 
 lashes:
     - name: One by one

@@ -75,7 +75,7 @@ men:
 
 massage:
     - name: Rug-menu
-      description: Scrub, massage en 'mud-packing' (40min)
+      description: Scrub, massage en mud-pakking (40min)
       price: €35
 
 lashes:

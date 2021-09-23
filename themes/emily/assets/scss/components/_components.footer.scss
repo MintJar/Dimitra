@@ -32,7 +32,13 @@
 }
 
 .c-footer__disclaimer {
+    margin-bottom: 0;
     font-size: 0.9rem;
+}
+.c-footer__vat {
+    margin-top: 0;
+    font-size: 0.9rem;
+    opacity: 0.6;
 }
 
 .c-footer__synopsis {

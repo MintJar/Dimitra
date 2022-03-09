@@ -8,7 +8,7 @@ hero: /dimi/DSC08279.jpg
 pedicure_manicure:
     - name: Gespecialiseerde pedicure
       description: Voetbad - voet analyse - nagels knippen - in vorm brengen - reinigen - eelt-verzorging - eventuele aandoening behandelen - scrub en voetcrème.
-      price: €30
+      price: €32
 
     - name: Serplus gellak
       description: 
@@ -48,20 +48,28 @@ epilatie:
       price: €20
 
 gelaatsverzorgingen:
+    - name: "Iedere gelaatsverzorging bevat:"
+      description:
+        Huid analyse - Welkom ritueel - Uitgebreide reiniging - Dubbel peeling fase (mechanisch en enzymatisch) - Dubbel masker (reinigend en aangepast aan het huidprobleem) - 2 massages ( gelaat en hand, arm en schouder) - Afwerkende fase met serum, dagcrème en oogcrème
+
     - name: Hydrating boost verzorging
-      description: Een intens hydraterende verzorging voor het gelaat die de vochtbalans van de huid vanbinnen uit hersteld, door het uniek Osmoter complex.  Deze behandeling boost de hydratatie van de huid die door de dagelijkse stress en de agressies haar levensnoodzakelijk vocht verliest. (60min)
+      description: Een intens hydraterende verzorging voor het gelaat die de vochtbalans van de huid vanbinnen uit hersteld, door het uniek Osmoter complex.  Deze behandeling boost de hydratatie van de huid die door de dagelijkse stress en de agressies haar levensnoodzakelijk vocht verliest. (75min)
       price: €60
 
     - name: Extreme lift verzorging
-      description: Een multi-voordelige anti-aging gelaatsverzorging, gericht op de algemene huidverbetering. Het strijkt rimpels & fijne lijntjes glad, versterkt de stevigheid van de huid en egaliseert de teint. (60min)
+      description: Een multi-voordelige anti-aging gelaatsverzorging, gericht op de algemene huidverbetering. Het strijkt rimpels & fijne lijntjes glad, versterkt de stevigheid van de huid en egaliseert de teint. (75min)
       price: €75
 
     - name: Botox-like verzorging
-      description: Een luxe gelaatsverzorging die uitgevoerd word met de top lijn van AHAVA het is een resultaat gerichte behandeling die de rimpels & fijne lijntjes in het gelaat opvult en glad strijkt. Deze behandeling versterkt de stevigheid van de huid en egaliseert de teint.  Het is een efficiënt, slim en veilig alternatief voor botox. (75min)
+      description: Een luxe gelaatsverzorging die uitgevoerd word met de top lijn van AHAVA het is een resultaat gerichte behandeling die de rimpels & fijne lijntjes in het gelaat opvult en glad strijkt. Deze behandeling versterkt de stevigheid van de huid en egaliseert de teint.  Het is een efficiënt, slim en veilig alternatief voor botox. (90min)
       price: €85
 
     - name: Rug supplement 
-      description: Welkoms rug massage + mud pakking
+      description: Welkoms rug massage + mud pakking (25min)
+      price: €10
+
+    - name: Oogverzorging supplement 
+      description: 
       price: €10
 
 men:
@@ -80,11 +88,11 @@ massage:
 
 lashes:
     - name: One by one
-      description: Op één haartje wordt één wimper geplaatst aangepast aan de natuurlijke wimper. Na ongeveer 3 weken worden de wimpers bijgewerkt, door de wimpercyclus verlies je haartjes en die gaatjes worden opnieuw opgevuld.
+      description: Op één haartje wordt één extension geplaatst aangepast aan de natuurlijke wimper. Na ongeveer 3 weken worden de wimpers bijgewerkt, door de wimpercyclus verlies je haartjes en die gaatjes worden opnieuw opgevuld.
       price: €100
 
     - name: Russian volume
-      description: Op één haartje worden meerdere wimpers geplaatst aangepast aan de natuurlijke wimper en afhankelijk van u wens. Na ongeveer 3 weken worden de wimpers bijgewerkt, door de wimpercyclus verlies je haartjes en die gaatjes worden opnieuw opgevuld.
+      description: Op één haartje wordt één extension geplaatst aangepast aan de natuurlijke wimper en afhankelijk van u wens. Na ongeveer 3 weken worden de wimpers bijgewerkt, door de wimpercyclus verlies je haartjes en die gaatjes worden opnieuw opgevuld.
       price: €110
 
     - name: Bijwerking 2 weken

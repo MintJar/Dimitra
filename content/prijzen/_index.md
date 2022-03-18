@@ -48,10 +48,6 @@ epilatie:
       price: €20
 
 gelaatsverzorgingen:
-    - name: "Iedere gelaatsverzorging bevat:"
-      description:
-        Huid analyse - Welkom ritueel - Uitgebreide reiniging - Dubbel peeling fase (mechanisch en enzymatisch) - Dubbel masker (reinigend en aangepast aan het huidprobleem) - 2 massages ( gelaat en hand, arm en schouder) - Afwerkende fase met serum, dagcrème en oogcrème
-
     - name: Hydrating boost verzorging
       description: Een intens hydraterende verzorging voor het gelaat die de vochtbalans van de huid vanbinnen uit hersteld, door het uniek Osmoter complex.  Deze behandeling boost de hydratatie van de huid die door de dagelijkse stress en de agressies haar levensnoodzakelijk vocht verliest. (75min)
       price: €60
@@ -92,7 +88,7 @@ lashes:
       price: €100
 
     - name: Russian volume
-      description: Op één haartje wordt één extension geplaatst aangepast aan de natuurlijke wimper en afhankelijk van u wens. Na ongeveer 3 weken worden de wimpers bijgewerkt, door de wimpercyclus verlies je haartjes en die gaatjes worden opnieuw opgevuld.
+      description: Op één haartje worden meerdere extensions geplaatst aangepast aan de natuurlijke wimper en afhankelijk van u wens. Na ongeveer 3 weken worden de wimpers bijgewerkt, door de wimpercyclus verlies je haartjes en die gaatjes worden opnieuw opgevuld.
       price: €110
 
     - name: Bijwerking 2 weken

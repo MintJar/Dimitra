@@ -1,8 +1,10 @@
 {{ define "main" }}
 
+
 <main class="o-container">
 	<section class="c-row">
 		<h1>Prijslijst</h1>
+        <p>Prijzen vanaf 1 januari 2023.</p>
 		<h3>Pedicure & Manicure</h3>
 		<div class="o-table">
 			{{ range .Params.pedicure_manicure}}
@@ -77,23 +79,6 @@
             </div>
 
 			{{ range .Params.gelaatsverzorgingen}}
-				<div class="o-row">
-					<div class="o-cell u-cell-name">
-						{{ .name }}
-					</div>
-					<div class="o-cell u-cell-description">
-						{{ .description }}
-					</div>
-					<div class="o-cell u-cell-price">
-						{{ .price }}
-					</div>
-				</div>
-			{{ end }}
-		</div>
-
-		<h3>Men</h3>
-		<div class="o-table">
-			{{ range .Params.men}}
 				<div class="o-row">
 					<div class="o-cell u-cell-name">
 						{{ .name }}

@@ -8,15 +8,15 @@ hero: /dimi/DSC08279.jpg
 pedicure_manicure:
     - name: Gespecialiseerde pedicure
       description: Voetbad - voet analyse - nagels knippen - in vorm brengen - reinigen - eelt-verzorging - eventuele aandoening behandelen - scrub en voetcrème.
-      price: €35
+      price: €37
 
     - name: Serplus gellak
       description: 
-      price: €15
+      price: €17
 
     - name: Spa Manicure
       description: Nagelbadje - vijlen - reinigen - nagelriem verzorgen - scrub - masker - handcrème 
-      price: €32
+      price: €35
 
     - name: Gellak
       description: Verstevigende nagellak onder de lamp blijft tot 3 weken.
@@ -25,7 +25,7 @@ pedicure_manicure:
 epilatie:
     - name: Wenkbrauw styling
       description:
-      price: €9
+      price: €10
 
     - name: Bovenlip
       description:
@@ -50,10 +50,10 @@ epilatie:
 gelaatsverzorgingen:
     - name: Hydrating boost verzorging
       description: Een intens hydraterende verzorging voor het gelaat die de vochtbalans van de huid vanbinnen uit hersteld, door het uniek Osmoter complex.  Deze behandeling boost de hydratatie van de huid die door de dagelijkse stress en de agressies haar levensnoodzakelijk vocht verliest. (75min)
-      price: €63
+      price: €70
 
-    - name: Extreme lift verzorging
-      description: Een multi-voordelige anti-aging gelaatsverzorging, gericht op de algemene huidverbetering. Het strijkt rimpels & fijne lijntjes glad, versterkt de stevigheid van de huid en egaliseert de teint. (75min)
+    - name: Multivitamine lift verzorging
+      description: Een flinke dosis vitaminen is een absolute must voor een huid van verschillende leeftijden die nood hebben aan extra versteviging, een gelijkmatige teint willen bevorderen en een vitale huid willen behouden.
       price: €77
 
     - name: Botox-like verzorging
@@ -62,20 +62,20 @@ gelaatsverzorgingen:
 
     - name: Rug supplement 
       description: Welkoms rug massage + mud pakking (25min)
-      price: €12
+      price: €15
 
     - name: Oogverzorging supplement 
-      description: 
-      price: €12
+      description: Oogmassage, oogserum en oogmasker-oogcrème
+      price: €15
 
     - name: Cupping massage supplement 
       description: Huid verstevigende- lymfe drainage massage
-      price: €10
+      price: €12
 
 massage:
     - name: Rug-menu
       description: Scrub, massage en mud-pakking (40min)
-      price: €40
+      price: €42
 
 lashes:
     - name: One by one
@@ -88,11 +88,11 @@ lashes:
 
     - name: Bijwerking 2 weken
       description:
-      price: €35
+      price: €39
 
     - name: Bijwerking 3 weken
       description:
-      price: €42
+      price: €45
     
 
 ---

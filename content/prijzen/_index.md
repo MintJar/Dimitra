@@ -61,7 +61,7 @@ gelaatsverzorgingen:
       price: €87
 
     - name: Rug supplement 
-      description: Welkoms rug massage + mud pakking (25min)
+      description: Butter salt scrub + welkoms rug massage (25min)
       price: €15
 
     - name: Oogverzorging supplement 
